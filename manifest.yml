@@ -1,0 +1,17 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WatsonIoT-Controller
+  host: WatsonIoT-Controller
+  disk_quota: 1024M
+  services:
+  - WatsonIot-Internet of Things Platform
+  - Text to Speech-t9
+  - Conversation-ua
+  - Language Translator-wiot
+  - Weather Company Data-x1
+  - Speech to Text-7a
+  - dashDB for Analytics-4k
+  - WatsonIoT-Controller-cloudantNoSQLDB
